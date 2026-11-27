@@ -12,4 +12,5 @@
     </pages>
   </help>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
 </mdclass:Subsystem>

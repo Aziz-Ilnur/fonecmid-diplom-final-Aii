@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00539c74-a188-482f-b603-ebb8b2c2100d">
+  <producedTypes>
+    <objectType typeId="cbf654d6-a3ae-4737-b384-8d83fe31be31" valueTypeId="08e0c512-8998-4fa6-aa9a-807f90e46f4d"/>
+    <refType typeId="d7df80c5-8176-4f2d-add2-fa3f94c5cf82" valueTypeId="411e6821-3f63-4c01-a230-85e9b2acb0b3"/>
+    <selectionType typeId="73e40186-e220-4865-9526-cf7b1ff1d5c0" valueTypeId="037f36c6-5a69-4e52-9716-68b30e8d4fe2"/>
+    <listType typeId="df5da9eb-c425-4119-9839-e2daf49cd79c" valueTypeId="60432aed-a6ed-4da0-8dee-16f464380018"/>
+    <managerType typeId="bdcb596e-95f3-4148-9e69-d2022ab8698d" valueTypeId="a859d20b-6cbf-4a38-b9ca-7ad0dbf20b92"/>
+  </producedTypes>
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ОбслуживаниеКлиентов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Обслуживание клиента</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5fa74902-750d-46f8-bb9b-b5c750084cb2">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
